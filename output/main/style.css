@@ -1,0 +1,27 @@
+QToolBar {
+    background-color: #0078D4; /* Kolor paska narzędzi, zbliżony do Firefoksa */
+    border: 0;
+    padding: 2px;
+}
+
+QToolBar QPushButton {
+    background-color: #0078D4; /* Kolor przycisków paska narzędzi, zbliżony do Firefoksa */
+    border: 0;
+    padding: 6px;
+}
+
+QToolBar QLineEdit {
+    background-color: white; /* Kolor pola wyszukiwania, zbliżony do Firefoksa */
+    border: 1px solid #0078D4;
+    border-radius: 3px;
+    padding: 4px;
+    color: #0078D4;
+}
+
+QToolBar QPushButton:hover {
+    background-color: #0063B1; /* Efekt po najechaniu myszką, zbliżony do Firefoksa */
+}
+
+QToolBar QPushButton:pressed {
+    background-color: #0057A8; /* Efekt po wciśnięciu przycisku, zbliżony do Firefoksa */
+}
